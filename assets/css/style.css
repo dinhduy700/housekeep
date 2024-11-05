@@ -1,0 +1,39 @@
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+.container-fluid {
+  /* background-color: #333333 !important; */
+}
+header {
+  background-color: #333333 !important;
+}
+
+.header-upper {
+  padding: 0.5rem;
+}
+
+nav {
+  padding: 1rem 0;
+}
+
+nav .historyBtn-list {
+display: flex;
+justify-content: space-between;
+width: 7rem;
+}
+
+nav .historyBtn-list a {
+  display: flex;
+  flex-direction: column;
+  color: #333333;
+}
+
+nav .historyBtn-list img {
+  height: 1.8rem;
+}
